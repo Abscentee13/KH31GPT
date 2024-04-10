@@ -1,1 +1,1 @@
-let apiKey = '';
+let apiKey = ' ';
