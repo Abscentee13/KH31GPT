@@ -1,0 +1,66 @@
+body {
+  background-color: #060b0f;
+}
+button, p {
+  position: relative;
+  top: 25vh;
+  width: 70%;
+  margin-left: 15%;
+  margin-bottom: 1%;
+  font-size: 5vh;
+}
+button {
+  width: 50%;
+  height: 8vh;
+  background-color: #5edc23;
+  color: #060b0f;
+  border: none;
+  border-radius: 10px;
+
+}
+
+
+.animate-button {
+  animation: button_anim 2s infinite;
+}
+
+
+.no-animate-button {
+  animation: none;
+}
+
+
+
+#question  {
+  color: #fd7526;
+}
+
+#answer  {
+  color: #5edc23;
+}
+@media screen and (max-width: 800px){
+  button, p {
+    width: 100%;
+    margin-left: 0;
+  }
+  p {
+    font-size: 3vh;
+  }
+}
+@keyframes button_anim {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.2
+  }
+}
+
+
+#buttonStop{
+  background-color: #fd7526;
+
+}
